@@ -43,6 +43,8 @@ public class Author {
                 '}';
     }
 
+
+    // Hibernate instead if JDBC code
     @Override
     public boolean equals(Object o) {
         if(this == o) {

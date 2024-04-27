@@ -60,6 +60,9 @@ public class Book {
                 '}';
     }
 
+
+    // Hibernate instead if JDBC code
+    //with equal and hashcode
     @Override
     public boolean equals(Object o) {
         if(this == o) {
